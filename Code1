@@ -1,0 +1,22 @@
+#Order class
+class Order:
+    """Class to represent an order. """
+    def __init__(self, order_number, delivery_address, delivery_date, delivery_method, order_status):
+        self.order_number = order_number
+        self.delivery_address = delivery_address
+        self.delivery_date = delivery_date
+        self.delivery_method = delivery_method
+        self.order_status = order_status
+        self.items = []
+
+#Setter Getter methods for order class attributes
+    def set_order_number(self, order_number):
+        self.order_number = order_number
+    def get_order_number(self):
+        return self.order_number
+
+    def set_delivery_address(self, delivery_address):
+        self.delivery_address = delivery_address
+    def get_delivery_address(self):
+        return self.delivery_address
+mm
